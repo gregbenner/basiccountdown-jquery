@@ -1,0 +1,32 @@
+.basic-countdown {
+    padding: 0 10px;
+    list-style: none;
+    margin: 0 auto;
+    clear: both;
+}
+
+.basic-countdown li, .basic-countdown .colon {
+    font-weight: bold;
+    width: 12.5%;
+    text-align: center;
+    font-size: 32px;
+    float: left;
+    color: #CCC;
+}
+
+.basic-countdown .colon {
+     position: relative;
+    top: -4px;
+}
+
+.basic-countdown .hours {
+
+}
+
+.basic-countdown .days {
+
+}
+
+.basic-countdown .minutes {
+    
+}

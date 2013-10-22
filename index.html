@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>basiccountdown js</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="basiccountdown.js"></script>
+</head>
+<body>
+	<div class="countDown"  data-time-until="474600000" style="width: 300px; background: #000; margin: auto; clear:both; overflow: auto;"></div>
+
+	<div class="countDown"  data-time-until="47460000" style="width: 300px; background: #000; margin: auto; clear:both; overflow: auto;"></div>
+
+	<div class="countDown"  data-time-until="60000" style="width: 300px; background: #000; margin: auto; clear:both; overflow: auto;"></div>
+
+	<script>
+		$('.countDown').basiccountdown({
+			 timesUp: function(){
+		    	console.log('finished');
+		    }
+		});
+	</script>
+</body>
+</html>
